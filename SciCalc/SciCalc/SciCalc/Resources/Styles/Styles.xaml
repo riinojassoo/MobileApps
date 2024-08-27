@@ -22,18 +22,18 @@
     
     <!--button styles-->
     <Style TargetType="Button" x:Key="NumberButtonStyle">
-        <Setter Property="Fontsize" Value="22"></Setter>
-        <Setter Property="FontFamily" Value="RegularFont"></Setter>
-        <Setter Property="TextColor" Value="White"></Setter>
-        <Setter Property="BackgroundColor" Value="#202731"></Setter>
-        <Setter Property="BorderWidth" Value="0"></Setter>
-        <Setter Property="BorderColor" Value="{StaticResource BorderColor}"></Setter>
-        <Setter Property="VerticalOptions" Value="Fill"></Setter>
-        <Setter Property="HorizontalOptions" Value="Fill"></Setter>
-        <Setter Property="CornerRadius" Value="0"></Setter>
-        <Setter Property="Padding" Value="0"></Setter>
-        <Setter Property="Margin" Value="0,0,1,1"></Setter>
-        <Setter Property="FontAutoScalingEnabled" Value="False"></Setter>
+        <Setter Property="FontSize" Value="22"/>
+        <Setter Property="FontFamily" Value="RegularFont"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="BackgroundColor" Value="#202731"/>
+        <Setter Property="BorderWidth" Value="0"/>
+        <Setter Property="BorderColor" Value="{StaticResource BorderColor}"/>
+        <Setter Property="VerticalOptions" Value="Fill"/>
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="Margin" Value="0,0,1,1"/>
+        <Setter Property="FontAutoScalingEnabled" Value="False"/>
     </Style>
 
     <Style TargetType="Button" x:Key="OperatorButtonStyle">
@@ -75,18 +75,18 @@
     </Style>
     
     <!--label styles-->
-    <Style TargetType="Label" x:Key="ResultLabelStyles">
-        <Setter Property="FontSize" Value="28"/>
-        <Setter Property="TextColor" Value="White"/>
-        <Setter Property="FontFamily" Value="RegularFont"/>
-        <Setter Property="LineBreakMode" Value="TailTruncation"/>
-        <Setter Property="FontAutoScalingEnabled" Value="False"/>
-    </Style>
-
     <Style TargetType="Label" x:Key="EqualsLabelStyles">
         <Setter Property="FontSize" Value="28"/>
         <Setter Property="TextColor" Value="#EFBB31"/>
         <Setter Property="FontFamily" Value="LightFont"/>
+        <Setter Property="LineBreakMode" Value="TailTruncation"/>
+        <Setter Property="FontAutoScalingEnabled" Value="False"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="ResultLabelStyles">
+        <Setter Property="FontSize" Value="28"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontFamily" Value="RegularFont"/>
         <Setter Property="LineBreakMode" Value="TailTruncation"/>
         <Setter Property="FontAutoScalingEnabled" Value="False"/>
     </Style>
