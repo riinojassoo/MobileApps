@@ -278,27 +278,30 @@
             Grid.Column="0"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="8,13,0.5,0.5"
+            Margin="7,11,0.25,0.25"
             CornerRadius="0"
-            Text="7"/>
+            Text="7"
+            TextColor="White"/>
             
          <Button
             Grid.Row="6"
             Grid.Column="1"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="0.5,13,0.5,0.5"
+            Margin="0.25,11,0.25,0.25"
             CornerRadius="0"
-            Text="8"/>
+            Text="8"
+            TextColor="White"/>
 
         <Button
             Grid.Row="6"
             Grid.Column="2"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="0.5,13,0.5,0.5"
+            Margin="0.25,11,0.25,0.25"
             CornerRadius="0"
-            Text="9"/>
+            Text="9"
+            TextColor="White"/>
 
         <Button
             Grid.Row="6"
@@ -306,7 +309,7 @@
             Grid.ColumnSpan="2"
             ZIndex="3"
             BackgroundColor="{StaticResource PrimaryColor}"
-            Margin="0.5,13,8,0.5"
+            Margin="0.25,11,7,0.25"
             CornerRadius="0"
             Text="AC"/>
 
@@ -316,34 +319,37 @@
             Grid.Column="0"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="8,0.5,0.5,0.5"
+            Margin="7,0.25,0.25,0.25"
             CornerRadius="0"
-            Text="4"/>  
+            Text="4"
+            TextColor="White"/>  
 
         <Button
             Grid.Row="7"
             Grid.Column="1"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="0.5,0.5,0.5,0.5"
+            Margin="0.25,0.25,0.25,0.25"
             CornerRadius="0"
-            Text="5"/>
+            Text="5"
+            TextColor="White"/>
 
         <Button
             Grid.Row="7"
             Grid.Column="2"
             ZIndex="3"
             BackgroundColor="#2C3240"
-            Margin="0.5,0.5,0.5,0.5"
+            Margin="0.25,0.25,0.25,0.25"
             CornerRadius="0"
-            Text="6"/>
+            Text="6"
+            TextColor="White"/>
 
         <Button
             Grid.Row="7"
             Grid.Column="3"
             ZIndex="3"
             BackgroundColor="{StaticResource PrimaryColor}"
-            Margin="0.5,0.5,0.5,0.5"
+            Margin="0.25,0.25,0.25,0.25"
             CornerRadius="0"
             Text="×"/>
 
@@ -352,12 +358,100 @@
             Grid.Column="4"
             ZIndex="3"
             BackgroundColor="{StaticResource PrimaryColor}"
-            Margin="0.5,0.5,8,0.5"
+            Margin="0.25,0.25,7,0.25"
             CornerRadius="0"
             Text="÷"/>
 
         <!--third row of numbers-->
+        <Button
+            Grid.Row="8"
+            Grid.Column="0"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="7,0.25,0.25,0.25"
+            CornerRadius="0"
+            Text="1"
+            TextColor="White"/>
 
+        <Button
+            Grid.Row="8"
+            Grid.Column="1"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.25,0.25,0.25,0.25"
+            CornerRadius="0"
+            Text="2"
+            TextColor="White"/>
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="2"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.25,0.25,0.25,0.25"
+            CornerRadius="0"
+            Text="3"
+            TextColor="White"/>
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="3"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.25,0.25,0.25,0.25"
+            CornerRadius="0"
+            Text="+"/>
+
+        <Button
+            Grid.Row="8"
+            Grid.Column="4"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.25,0.25,7,0.25"
+            CornerRadius="0"
+            Text="-"/>
+
+        <!--fourth row of numbers-->
+        <Button
+            Grid.Row="9"
+            Grid.Column="0"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="7,0.25,0.25,11"
+            CornerRadius="0"
+            Text="0"
+            TextColor="White"/>
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="1"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.25,0.25,0.25,11"
+            CornerRadius="0"
+            Text=","
+            TextColor="White"/>
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="2"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.25,0.25,0.25,11"
+            CornerRadius="0"
+            Text="⌫"
+            TextColor="White"/>
+
+        <Button
+            Grid.Row="9"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.25,0.25,7,11.5"
+            CornerRadius="0"
+            Text="="/>
+       
 
 
     </Grid>
