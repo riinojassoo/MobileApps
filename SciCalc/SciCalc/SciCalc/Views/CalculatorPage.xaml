@@ -253,14 +253,14 @@
         <BoxView
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
-            BackgroundColor="#2C3240"
+            BackgroundColor="#6b778c"
             Grid.Row="6"
             Grid.RowSpan="4"
-            Grid.ColumnSpan="3"
-            Margin="8,12,0,12"
+            Grid.ColumnSpan="5"
+            Margin="8,12,8,12"
             ZIndex="2"/>
 
-        <BoxView
+        <!--<BoxView
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
             BackgroundColor="{StaticResource PrimaryColor}"
@@ -269,41 +269,95 @@
             Grid.Column="3"
             Grid.ColumnSpan="2"
             Margin="0,12,8,12"
-            ZIndex="2"/>    
+            ZIndex="2"/>-->    
 
-
-
-        <!--<Button
-                Grid.Row="6"
-                Grid.Column="0"
-                ZIndex="1"
-                Margin="8,11"
-                Text="7"/>
+        <!--number field buttons-->
+        <!--first row of numbers-->
+        <Button
+            Grid.Row="6"
+            Grid.Column="0"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="8,13,0.5,0.5"
+            CornerRadius="0"
+            Text="7"/>
             
-            <Button
-                Grid.Row="6"
-                Grid.Column="1"
-                ZIndex="1"
-                Margin="8,11"
-                Text="8"/>
+         <Button
+            Grid.Row="6"
+            Grid.Column="1"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.5,13,0.5,0.5"
+            CornerRadius="0"
+            Text="8"/>
 
-            <Button
-                Grid.Row="6"
-                Grid.Column="2"
-                ZIndex="1"
-                Margin="8,11"
-                Text="7"/>-->
+        <Button
+            Grid.Row="6"
+            Grid.Column="2"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.5,13,0.5,0.5"
+            CornerRadius="0"
+            Text="9"/>
 
-            <!--<Button
-                Grid.Row="6"
-                Grid.Column="3"
-                Grid.ColumnSpan="2"
-                ZIndex="1"
-                BackgroundColor="{StaticResource PrimaryColor}"
-                Text="AC"/>-->
+        <Button
+            Grid.Row="6"
+            Grid.Column="3"
+            Grid.ColumnSpan="2"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.5,13,8,0.5"
+            CornerRadius="0"
+            Text="AC"/>
 
-       
-        
+        <!--second row of numbers-->
+        <Button
+            Grid.Row="7"
+            Grid.Column="0"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="8,0.5,0.5,0.5"
+            CornerRadius="0"
+            Text="4"/>  
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="1"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.5,0.5,0.5,0.5"
+            CornerRadius="0"
+            Text="5"/>
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="2"
+            ZIndex="3"
+            BackgroundColor="#2C3240"
+            Margin="0.5,0.5,0.5,0.5"
+            CornerRadius="0"
+            Text="6"/>
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="3"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.5,0.5,0.5,0.5"
+            CornerRadius="0"
+            Text="×"/>
+
+        <Button
+            Grid.Row="7"
+            Grid.Column="4"
+            ZIndex="3"
+            BackgroundColor="{StaticResource PrimaryColor}"
+            Margin="0.5,0.5,8,0.5"
+            CornerRadius="0"
+            Text="÷"/>
+
+        <!--third row of numbers-->
+
 
 
     </Grid>
