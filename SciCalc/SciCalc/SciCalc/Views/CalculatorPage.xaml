@@ -277,40 +277,37 @@
             Grid.Row="6"
             Grid.Column="0"
             ZIndex="3"
-            BackgroundColor="#2C3240"
             Margin="7,11,0.5,0.5"
-            CornerRadius="0"
-            Text="7"
-            TextColor="White"/>
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="7"/>
             
          <Button
             Grid.Row="6"
             Grid.Column="1"
             ZIndex="3"
-            BackgroundColor="#2C3240"
             Margin="0.5,11,0.5,0.5"
-            CornerRadius="0"
-            Text="8"
-            TextColor="White"/>
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
+            Text="8"/>
 
         <Button
             Grid.Row="6"
             Grid.Column="2"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,11,0.5,0.5"
-            CornerRadius="0"
-            Text="9"
-            TextColor="White"/>
+            Text="9"/>
 
         <Button
             Grid.Row="6"
             Grid.Column="3"
             Grid.ColumnSpan="2"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding ResetCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,11,7,0.5"
-            CornerRadius="0"
             Text="AC"/>
 
         <!--second row of numbers-->
@@ -318,48 +315,45 @@
             Grid.Row="7"
             Grid.Column="0"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="7,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="4"
-            TextColor="White"/>  
+            Text="4"/>  
 
         <Button
             Grid.Row="7"
             Grid.Column="1"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="5"
-            TextColor="White"/>
+            Text="5"/>
 
         <Button
             Grid.Row="7"
             Grid.Column="2"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="6"
-            TextColor="White"/>
+            Text="6"/>
 
         <Button
             Grid.Row="7"
             Grid.Column="3"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding MathOperatorCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
             Text="×"/>
 
         <Button
             Grid.Row="7"
             Grid.Column="4"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding MathOperatorCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,0.5,7,0.5"
-            CornerRadius="0"
             Text="÷"/>
 
         <!--third row of numbers-->
@@ -367,48 +361,45 @@
             Grid.Row="8"
             Grid.Column="0"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="7,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="1"
-            TextColor="White"/>
+            Text="1"/>
 
         <Button
             Grid.Row="8"
             Grid.Column="1"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="2"
-            TextColor="White"/>
+            Text="2"/>
 
         <Button
             Grid.Row="8"
             Grid.Column="2"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
-            Text="3"
-            TextColor="White"/>
+            Text="3"/>
 
         <Button
             Grid.Row="8"
             Grid.Column="3"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding MathOperatorCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,0.5,0.5,0.5"
-            CornerRadius="0"
             Text="+"/>
 
         <Button
             Grid.Row="8"
             Grid.Column="4"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding MathOperatorCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,0.5,7,0.5"
-            CornerRadius="0"
             Text="-"/>
 
         <!--fourth row of numbers-->
@@ -416,43 +407,38 @@
             Grid.Row="9"
             Grid.Column="0"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="7,0.5,0.5,11"
-            CornerRadius="0"
-            Text="0"
-            TextColor="White"/>
+            Text="0"/>
 
         <Button
             Grid.Row="9"
             Grid.Column="1"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding NumberInputCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,11"
-            CornerRadius="0"
-            Text=","
-            TextColor="White"/>
+            Text="."/>
 
         <Button
             Grid.Row="9"
             Grid.Column="2"
             ZIndex="3"
-            BackgroundColor="#2C3240"
+            Command="{Binding BackspaceCommand}"
+            Style="{StaticResource NumberButtonStyle}"
             Margin="0.5,0.5,0.5,11"
-            CornerRadius="0"
-            Text="⌫"
-            TextColor="White"/>
+            Text="⌫"/>
 
         <Button
             Grid.Row="9"
             Grid.Column="3"
             Grid.ColumnSpan="2"
             ZIndex="3"
-            BackgroundColor="{StaticResource PrimaryColor}"
+            Command="{Binding CalculateCommand}"
+            Style="{StaticResource OperatorButtonStyle}"
             Margin="0.5,0.5,7,11.5"
-            CornerRadius="0"
             Text="="/>
-       
-
 
     </Grid>
 </ContentPage>
