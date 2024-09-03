@@ -4,7 +4,7 @@ using CommunityToolkit.Mvvm.Input;
 namespace SciCalc.ViewModels
 {
     [INotifyPropertyChanged]
-    internal partial class CalculatorPageViewModel
+    internal partial class CalculatorPageViewModel //: ObservableObject
     {
         [ObservableProperty]
         private string inputText = string.Empty;
@@ -83,7 +83,7 @@ namespace SciCalc.ViewModels
         {
             if (InputText.Length > 0)
             {
-                inputText = InputText.Substring(0, InputText.Length - 1);
+                InputText = InputText.Substring(0, InputText.Length - 1);
             }
         }
 

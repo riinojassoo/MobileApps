@@ -5,26 +5,26 @@
              Title="CalculatorPage">
 
     <Grid
-        RowDefinitions="*, 68,48,44,44,48,64,64,64,64"
+        RowDefinitions="*,68,48,44,44,48,64,64,64,64"
         ColumnDefinitions="*,*,*,*,*">
-        <!--Color Answer Row-->
 
-        <BoxView
+        <!--Color Answer Row-->
+        <BoxView 
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
             BackgroundColor="#262D37"
             Grid.Row="1"
             Grid.ColumnSpan="5"/>
-        
+
         <!--Color Scientific Rows-->
-        <BoxView
+        <BoxView 
             VerticalOptions="Fill"
             HorizontalOptions="Fill"
             BackgroundColor="#2C3240"
             Grid.Row="2"
             Grid.RowSpan="4"
-            Grid.ColumnSpan="5"/>   
-        
+            Grid.ColumnSpan="5"/>
+
         <!--input area-->
         <Frame
             HasShadow="False"
@@ -43,12 +43,12 @@
                 VerticalOptions="Center">
                 <Label.FormattedText>
                     <FormattedString>
-                        <Span Text="{Binding InputText}" Style="{StaticResource InputBoxLabelStyles}"/>
+                        <Span Text="{Binding InputText}" Style="{StaticResource InputBoxLabelStyles}" />
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
         </Frame>
-        
+
         <!--Answer Row-->
         <Grid
             ColumnDefinitions="Auto,*"
@@ -62,7 +62,7 @@
                 Style="{StaticResource EqualsLabelStyles}"
                 Margin="16,0"/>
 
-            <Label
+            <Label 
                 Text="{Binding CalculatedResult, Mode=OneWay}"
                 VerticalOptions="Center"
                 VerticalTextAlignment="Center"
@@ -70,9 +70,8 @@
                 Grid.Column="1"
                 Style="{StaticResource ResultLabelStyles}"
                 Margin="16,0"/>
-
         </Grid>
-        
+
         <!--Scientific Operators-->
         <!--Row-->
         <Button
