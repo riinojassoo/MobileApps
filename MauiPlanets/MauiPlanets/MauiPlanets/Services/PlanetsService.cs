@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +27,7 @@ namespace MauiPlanets.Services
 					"https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
 				}
 			},
+
 			new()
 			{
 				Name = "Venus",
@@ -42,6 +44,7 @@ namespace MauiPlanets.Services
 					"https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
 				}
 			},
+
 			new()
 			{
 				Name = "Earth",
@@ -57,6 +60,7 @@ namespace MauiPlanets.Services
 					"https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
 				}
 			},
+
 			new()
 			{
 				Name = "Mars",
@@ -72,6 +76,83 @@ namespace MauiPlanets.Services
 					"https://www.openaccessgovernment.org/wp-content/uploads/2021/04/dreamstime_xxl_121672573-scaled.jpg"
 				}
 			},
+
+			new()
+			{
+				Name = "Jupiter",
+				Subtitle = "The gas giant",
+				HeroImage = "jupiter.png",
+				Description = "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than 2.5 times that of all the other planets in the Solar System combined, and slightly less than one-thousandth the mass of the Sun. Its diameter is eleven times that of Earth, and a tenth that of the Sun.",
+				AccentColorStart = Color.FromArgb("#9d4a40"),
+				AccentColorEnd = Color.FromArgb("#cd8026"),
+				Images = new()
+				{ 
+					"https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
+				}
+			},
+
+			new()
+			{
+				Name = "Saturn",
+				Subtitle = "The ring planet",
+				HeroImage = "saturn.png",
+				Description = "Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is a gas giant, with an average radius of about nine times that of Earth. It has an eighth the average density of Earth, but is over 95 times more massive. Even though Saturn is almost as big as Jupiter, Saturn has less than a third the mass of Jupiter.",
+				AccentColorStart = Color.FromArgb("#996237"),
+				AccentColorEnd = Color.FromArgb("#c6502f"),
+				Images = new()
+				{
+					"https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+				}
+			},
+
+			new()
+			{
+				Name = "Uranus",
+				Subtitle = "The Herschel planet",
+				HeroImage = "uranus.png",
+				Description = "Uranus is the seventh planet from the Sun. It is a gaseous cyan-coloured ice giant. Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which astronomy calls \"ice\" or volatiles. The planet's atmosphere has a complex layered cloud structure and has the lowest minimum temperature (49 K (−224 °C; −371 °F)) of all the Solar System's planets.",
+				AccentColorStart = Color.FromArgb("#9d4a40"),
+				AccentColorEnd = Color.FromArgb("#996237"),
+				Images = new()
+				{
+					"https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
+				}
+			},
+
+			new()
+			{
+				Name = "Neptune",
+				Subtitle = "The god of the sea",
+				HeroImage = "neptune.png",
+				Description = "Neptune is the eighth and farthest known planet from the Sun. It is the fourth-largest planet in the Solar System by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth and slightly more massive, but denser and smaller, than fellow ice giant Uranus.",
+				AccentColorStart = Color.FromArgb("#0c293d"),
+				AccentColorEnd = Color.FromArgb("#26abe0"),
+				Images = new()
+				{
+					"https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+					"https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+				}
+			},
 		};
+		public static List<Planet> GetFeaturedPlanets()
+		{
+			var random = new Random();
+			var randomizePlantes = planets
+				.OrderBy(ItemDelegateList => random.Next());
+
+			return randomizePlantes
+				.Take(2).
+				ToList();
+		}
+		public static List<Planet> GetAllPlanets()
+			=> planets;
 	}
 }
