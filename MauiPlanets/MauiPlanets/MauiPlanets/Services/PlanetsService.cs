@@ -23,9 +23,8 @@ namespace MauiPlanets.Services
 				Images = new()
 				{
 					"https://cdn.theatlantic.com/thumbor/D15rQggf6357X1-u6VpTD2N1yQE=/0x27:1041x613/976x549/media/img/mt/2017/04/MercuryImage/original.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/73_carousel_mercury_2.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/75_mercury_carousel_1.jpg"
-				}
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLvLfdgshY1HwVy-Js7V-0KD0QvWsSvrxLPg&s"
+                }
 			},
 
 			new()
@@ -38,11 +37,10 @@ namespace MauiPlanets.Services
 				AccentColorEnd = Color.FromArgb("#d17f21"),
 				Images = new()
 				{
-					"https://solarsystem.nasa.gov/system/feature_items/images/143_Venus-800x600.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/147_Hubble_Venus_Clouds-800x600.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/146_venus_carousel_3.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/144_PIA00485_Venus_Caldera-800.jpg"
-				}
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJloXbePMZrQQjOBhbZSqCPW3UFAoirL6_Rw&s",
+                    "https://images.theconversation.com/files/404401/original/file-20210604-13-128m0ja.jpg?ixlib=rb-4.1.0&rect=194%2C26%2C3400%2C2365&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_dj0AC1EUzSzKfkz8gDKAxXD-bigw7tBLHA&s"
+                }
 			},
 
 			new()
@@ -55,8 +53,7 @@ namespace MauiPlanets.Services
 				AccentColorEnd = Color.FromArgb("#2e97c7"),
 				Images = new()
 				{
-					"https://solarsystem.nasa.gov/system/feature_items/images/68_epicearthmoonstill_800.png",
-					"https://solarsystem.nasa.gov/system/feature_items/images/69_earth_carousel_3.jpg",
+                    "https://cdn.britannica.com/31/160431-050-C38A5086/Image-Earth-Russian-Elektro-L-weather-satellite-2012.jpg",
 					"https://images.newscientist.com/wp-content/uploads/2019/09/09162708/iss048-e-2035_lrg.jpg?width=778"
 				}
 			},
@@ -86,11 +83,10 @@ namespace MauiPlanets.Services
 				AccentColorStart = Color.FromArgb("#9d4a40"),
 				AccentColorEnd = Color.FromArgb("#cd8026"),
 				Images = new()
-				{ 
-					"https://solarsystem.nasa.gov/system/feature_items/images/11_Full_Jupiter-800.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/10_Jupiter_Io_Juno-800.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/13_PIA24237_Jupiter_Cyclones-800.jpg"
-				}
+				{
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Jupiter.jpg/800px-Jupiter.jpg",
+                    "https://i.natgeofe.com/k/7c7e4173-5ad3-4ef7-8252-354de21430db/jupiter_4x3.jpg"
+                }
 			},
 
 			new()
@@ -103,11 +99,9 @@ namespace MauiPlanets.Services
 				AccentColorEnd = Color.FromArgb("#c6502f"),
 				Images = new()
 				{
-					"https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
-				}
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk6gwdZ3XVssZg967vb3iJ60C8jBC0ksM4Ag&s",
+                    "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/06/Saturn1.jpeg?size=*:900"
+                }
 			},
 
 			new()
@@ -120,10 +114,9 @@ namespace MauiPlanets.Services
 				AccentColorEnd = Color.FromArgb("#996237"),
 				Images = new()
 				{
-					"https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/89_uranus_carousel_1.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/88_carousel_uranus.jpg"
-				}
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc2Rm9gNbKitob9-o3zI754jMyVL6VqLOCww&s",
+                    "https://imageio.forbes.com/specials-images/imageserve/5f91806c76fcfa4a1e885d7c/Planet-Uranus-/960x0.jpg?format=jpg&width=960"
+                }
 			},
 
 			new()
@@ -136,12 +129,88 @@ namespace MauiPlanets.Services
 				AccentColorEnd = Color.FromArgb("#26abe0"),
 				Images = new()
 				{
-					"https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-					"https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
-				}
+                    "https://images.squarespace-cdn.com/content/v1/5fa5ec79661ee904d2973ca0/1678752888290-2A53B1ST09WTKNPYW35R/neptune.png",
+                    "https://media.npr.org/assets/img/2024/01/04/neptune-voyager_wide-6f930726366a55df02388c795be87841fcbf2443.jpg?s=1400&c=100&f=jpeg"
+                }
 			},
-		};
+
+
+            new()
+            {
+                 Name = "Pluto",
+                 Subtitle = "The Dwarf Planet",
+                 HeroImage = "pluto.png",
+                 Description = "Pluto (minor-planet designation: 134340 Pluto) is a dwarf planet in the Kuiper belt, a ring of bodies beyond the orbit of Neptune. It is the ninth-largest and tenth-most-massive known object to directly orbit the Sun. It is the largest known trans-Neptunian object by volume, by a small margin, but is less massive than Eris. Like other Kuiper belt objects, Pluto is made primarily of ice and rock and is much smaller than the inner planets.",
+                 AccentColorStart = Color.FromArgb("##f7c95e"),
+                 AccentColorEnd = Color.FromArgb("#a87703"),
+                 Images = new()
+                 {
+                    "https://i.natgeofe.com/n/b103fff5-6a84-4d19-b65e-5856998816c3/PIA19952_2x3.jpg",
+                    "https://c4.wallpaperflare.com/wallpaper/486/838/486/planet-pluto-space-universe-wallpaper-preview.jpg"
+                 }
+            },
+
+            new()
+            {
+				Name = "Ceres",
+				Subtitle = "The Harvest Keeper of the Asteroid Belt",
+				HeroImage = "ceres.png",
+				Description = "Ceres (minor-planet designation: 1 Ceres) is a dwarf planet in the middle main asteroid belt between the orbits of Mars and Jupiter. It was the first known asteroid, discovered on 1 January 1801 by Giuseppe Piazzi at Palermo Astronomical Observatory in Sicily, and announced as a new planet. Ceres was later classified as an asteroid and then a dwarf planet, the only one not beyond Neptune's orbit. ",
+				AccentColorStart = Color.FromArgb("#020a78"),
+				AccentColorEnd = Color.FromArgb("#ede8e6"),
+				Images = new()
+				{
+                    "https://miro.medium.com/v2/resize:fit:1260/format:webp/1*rKn4CBlXIt7VW5hQuGLqfw.png",
+                    "https://www.nation.com.pk/print_images/large/2016-12-16/dwarf-planet-ceres-is-flush-with-ice-nasa-1481905999-6325.jpg"
+                }
+            },
+
+            new()
+            {
+				Name = "Haumea",
+                Subtitle = "The Reshaper of Worlds",
+                HeroImage = "haumea.png",
+                Description = "Haumea (minor-planet designation: 136108 Haumea) is a dwarf planet located beyond Neptune's orbit.[25] It was discovered in 2004 by a team headed by Mike Brown of Caltech at the Palomar Observatory, and formally announced in 2005 by a team headed by José Luis Ortiz Moreno at the Sierra Nevada Observatory in Spain, who had discovered it that year in precovery images taken by the team in 2003. From that announcement, it received the provisional designation 2003 EL61. On 17 September 2008, it was named after Haumea, the Hawaiian goddess of childbirth, under the expectation by the International Astronomical Union (IAU) that it would prove to be a dwarf planet.",
+                AccentColorStart = Color.FromArgb("#615c5a"),
+                AccentColorEnd = Color.FromArgb("#ded9d7"),
+                Images = new()
+                {
+                    "https://i.redd.it/9fswe344cff51.jpg",
+                    "https://cdn.sci.news/images/enlarge10/image_11303e-Haumea.jpg"
+                }
+            },
+
+            new()
+			{
+				Name = "MakeMake",
+				Subtitle = "The Creator of Easter Island",
+				HeroImage = "makemake.png",
+				Description = "Makemake (minor-planet designation: 136472 Makemake) is a dwarf planet and the largest of what is known as the classical population of Kuiper belt objects,[b] with a diameter approximately that of Saturn's moon Iapetus, or 60% that of Pluto.[24][25] It has one known satellite.[26] Its extremely low average temperature, about 40 K (−230 °C), means its surface is covered with methane, ethane, and possibly nitrogen ices.",
+				AccentColorStart = Color.FromArgb("#8c4732"),
+				AccentColorEnd = Color.FromArgb("#ccb0a7"),
+				Images = new()
+                {
+                    "https://www.universetoday.com/wp-content/uploads/2008/07/Makemake.jpg",
+                    "https://article-imgs.scribdassets.com/4i05y8h0ao9lf9r6/images/fileS27I6RTH.jpg"
+                }
+            },
+
+            new()
+			{
+				Name = "Eris",
+				Subtitle = "The Goddess of Discord in the Kuiper Belt",
+				HeroImage = "eris.png",
+				Description = "Eris (minor-planet designation: 136199 Eris) is the most massive and second-largest known dwarf planet in the Solar System.[22] It is a trans-Neptunian object (TNO) in the scattered disk and has a high-eccentricity orbit. Eris was discovered in January 2005 by a Palomar Observatory–based team led by Mike Brown and verified later that year. It was named in September 2006 after the Greco–Roman goddess of strife and discord. Eris is the ninth-most massive known object orbiting the Sun and the sixteenth-most massive overall in the Solar System (counting moons).",
+				AccentColorStart = Color.FromArgb("#e0ccc5"),
+				AccentColorEnd = Color.FromArgb("#a89d99"),
+				Images = new()
+				{
+                    "https://cff2.earth.com/uploads/2024/02/20135637/Eris_icy-dwarf-planet_kuiper-belt_1m.jpg",
+                    "https://starchild.gsfc.nasa.gov/Images/StarChild/solar_system_level2/eris_and_dysnomia_485.jpg"
+                }
+			},
+
+        };
 		public static List<Planet> GetFeaturedPlanets()
 		{
 			var random = new Random();

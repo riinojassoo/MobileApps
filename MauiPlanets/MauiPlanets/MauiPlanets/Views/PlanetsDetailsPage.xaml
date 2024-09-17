@@ -93,7 +93,7 @@
                     Text="Gallery"/>
 
                 <CollectionView
-                    Margin="0,/6,0,0"
+                    Margin="0,6,0,0"
                     HeightRequest="400"
                     WidthRequest="400"
                     ItemsSource="{Binding Images}">
