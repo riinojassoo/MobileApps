@@ -67,7 +67,11 @@ namespace MauiCRUD.Data
 
 		public async ValueTask DisposeAsync() => await _connection.CloseAsync();
 
-
+		public async Task<IEnumerable<TTable>> GetFilteredAsync<TTable>(Expression<Func<TTable, bool>> predicate) where TTable: class, new()
+		{
+			var table = await GetTableAsync<TTable>();
+			return await table.Where(predicate).ToListAsync();
+		}
 
 	}
 }
