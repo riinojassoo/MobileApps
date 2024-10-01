@@ -85,7 +85,7 @@
                                    FontSize="18"
                                    FontAttributes="Bold"
                                    HorizontalTextAlignment="Center"/>
-                            <Label Text="Try creatng a product from the form below"/>
+                            <Label Text="Try creating a product from the form below"/>
                         </VerticalStackLayout>
                     </ContentView>
                 </CollectionView.EmptyView>
@@ -106,17 +106,17 @@
                         <Entry Text="{Binding OperatingProduct.Name}"
                                Placeholder="Product name"
                                Margin="0"
-                               BackgroundColor="#DAD1F9"/>
+                               BackgroundColor="#DAD1F9" />
                     </VerticalStackLayout>
 
                     <VerticalStackLayout Grid.Row="0"
-                     Grid.Column="0">
+                                         Grid.Column="1">
                         <Label Text="Price"/>
                         <Entry Text="{Binding OperatingProduct.Price}"
-                               Placeholder="Product price"
+                               Placeholder="Product Price"
                                Margin="0"
                                BackgroundColor="#DAD1F9"
-                               Keyboard="Numeric"/>  
+                               Keyboard="Numeric" />
                     </VerticalStackLayout>
 
                     <Button Grid.Row="1"
@@ -139,5 +139,4 @@
             </VerticalStackLayout>
         </Grid>
     </Grid>
-
 </ContentPage>
